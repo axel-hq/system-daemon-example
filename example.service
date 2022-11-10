@@ -1,0 +1,8 @@
+[Unit]
+Description=An example systemd service
+
+[Service]
+User=root
+WorkingDirectory=/pub/example
+ExecStart=node /pub/example/main.js
+Restart=always
